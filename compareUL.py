@@ -89,7 +89,7 @@ for tag in all_info:
             hfileV8 = TFile(hfileV8nm)
             hfileV6 = TFile(hfileV6nm)
             for region in ControlRegions:
-                folloc  = year+"/"+tag+"/"+region+"/"
+                folloc  = year+"/"+tag+"/"+tweak+"/"+region+"/"
                 thisfol = "Figures/"+folloc
                 webloc  = compweb+folloc
                 nplots  = 0
